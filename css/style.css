@@ -45,7 +45,7 @@ hr{
     height: 3px;
     background: #F5DF14;
     width: 90px;
-    margin: 100px auto;
+    margin: 100px auto 0 auto;
 }
 
 br{
@@ -58,7 +58,8 @@ br{
 }
 
 .img-contain{
-    margin: 100px 0;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 .img-contain img{
@@ -72,7 +73,12 @@ br{
 }
 
 .iframe-contain{
-    margin: 100px 0;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.share-block{
+    margin-top: 100px;
 }
 
 @media screen and (max-width: 768px){
