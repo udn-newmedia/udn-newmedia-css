@@ -73,6 +73,26 @@ p>br{
     margin-bottom: 100px;
 }
 
+.lazy-contain{
+    position: relative;
+}
+
+.lazy-contain:after {
+    content: '';
+    display: block;
+    height: 0;
+    width: 100%;
+    padding-bottom: 56.25%;
+    content: "";
+}
+.lazy-contain > * {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
 .img-contain .img-say{
     font-size: 1.0625rem;
     color: gray;
@@ -88,6 +108,11 @@ p>br{
     margin-top: 50px;   
     margin-bottom: 50px;
     padding: 0 50px;
+}
+
+.people-contain img{
+    width: 104.98px;
+    height: 104.98px;
 }
 
 .share-block{
@@ -160,7 +185,10 @@ p>br{
     text-decoration: underline;
 }
     
-
+#report .col-sm-3 img{
+    width: 208px;
+    height: 146px;
+}
 
 @media screen and (max-width: 768px){
     .container{
