@@ -1,0 +1,82 @@
+html, body {
+	height: 100%;
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: Arial, "微軟正黑體", sans-serif;
+    word-wrap: break-word;
+    text-align: justify;
+}
+
+#cover{
+    height: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('http://p.udn.com.tw/upf/newmedia/2017_data/20170508_marketing/image/fbcover.jpg');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-size: 3.4375rem;
+    font-weight: bold;
+    color: #FFFFFF;
+    letter-spacing: 2px;
+    text-shadow: 0px 0px 8px rgba(0%, 0%, 0%, 0.8);
+    line-height: 1.5;
+    margin: 0;
+}
+
+h2{
+    font-size: 1.875rem;
+    font-weight: bold;
+    line-height: 1.5;
+    margin: 100px 0 50px 0;
+}
+
+p{
+    font-size: 1.3125rem;
+    margin: 0;
+}
+
+hr{
+    border: 0;
+    height: 3px;
+    background: #F5DF14;
+    width: 90px;
+    margin: 100px auto;
+}
+
+br{
+    line-height: 50px;
+}
+
+.container{
+    width: 880px;
+    padding: 0;
+}
+
+.img-contain{
+    margin: 100px 0;
+}
+
+.img-contain img{
+    width: 100%;
+}
+
+.img-contain .img-say{
+    font-size: 1.0625rem;
+    color: gray;
+    margin-top: 5px;
+}
+
+.iframe-contain{
+    margin: 100px 0;
+}
+
+@media screen and (max-width: 768px){
+    .container{
+        width: 100%;
+    }
+}
