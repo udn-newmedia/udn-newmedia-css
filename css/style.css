@@ -90,7 +90,7 @@ footer a {
   top: 0;
   left: 0;
   z-index: 99999;
-  transition: opacity 1s ease;
+  transition: top 0.7s ease;
 }
 
 #icon{
