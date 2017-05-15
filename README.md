@@ -19,7 +19,7 @@ Long Form 預設版型
 ```
 
 *   內文區塊
-####    content 裡的<br/>要用<p>標籤包起來，這樣才有符合標準的 50px 高之換行。
+####    content 裡的<pre><br/></pre>要用<pre><p></pre>標籤包起來，這樣才有符合標準的 50px 高之換行。
 ```html
 <div class="content container">
     <h2>【聯合報新媒體研究報告】</h2>
