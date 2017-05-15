@@ -62,6 +62,26 @@ p>br{
     line-height: 50px;
 }
 
+footer{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #A3A3A3;
+}
+
+.footer-link{
+    padding: 0px 10px;
+}
+
+.footer-right-board{
+    border-right: 1px solid #000000;
+}
+
 #head{
   position: fixed;
   background-color : #231815;
@@ -80,6 +100,7 @@ p>br{
 
 #icon img{
     width: 130px;
+    margin-top: -3px;
 }
 
 .container{
