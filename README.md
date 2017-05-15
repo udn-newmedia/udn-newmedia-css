@@ -8,6 +8,7 @@ Long Form 預設版型
 [預覽頁面](https://udn-newmedia.github.io/udn-newmedia-css/)
 
 # 語法
+*   內文區塊
 ```html
 <div class="content container">
     <h2>【聯合報新媒體研究報告】</h2>
