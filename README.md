@@ -3,6 +3,8 @@ Udn NewMedia Default CSS
 
 https://udn-newmedia.github.io/udn-newmedia-css/css/style.css
 
+引入 css 後，照定義好的 tag 開發，就有預設的空版頁面
+
 # 聯合報新媒體中心
 Long Form 預設版型
 
@@ -19,7 +21,7 @@ Long Form 預設版型
 ```
 
 *   內文區塊
-####    content 裡的&lt;br/&gt;要用&lt;p&gt;標籤包起來，這樣才有符合標準的 50px 高之換行。
+content 裡的&lt;br/&gt;要用&lt;p&gt;標籤包起來，這樣才有符合標準的 50px 高之換行。
 ```html
 <div class="content container">
     <h2>【聯合報新媒體研究報告】</h2>
