@@ -62,6 +62,26 @@ p>br{
     line-height: 50px;
 }
 
+#head{
+  position: fixed;
+  background-color : #231815;
+  height: 50px;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 99999;
+  transition: opacity 1s ease;
+}
+
+#icon{
+    height: 50px;
+    line-height: 50px;
+}
+
+#icon img{
+    width: 130px;
+}
+
 .container{
     width: 880px;
     padding: 0;
@@ -205,6 +225,30 @@ p>br{
 	height: 10px;
 	width: 0;
 	background-color: #AA4444;
+}
+
+blockquote{
+    font-family: "新細明體";
+    font-weight: bold;
+    font-size: 2rem;
+    color: #888888;
+    padding: 0;
+    margin: 50px 0 50px 0;
+    border-left: none;
+}
+
+blockquote::before{
+    color: #000000;
+    display: inline;
+    font-size: 2.9375rem;
+    content: '“';
+}
+
+blockquote::after{
+    color: #000000;
+    display: inline;
+    font-size: 2.9375rem;
+    content: '”';
 }
 
 @media screen and (max-width: 768px){
