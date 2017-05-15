@@ -8,6 +8,14 @@ Long Form 預設版型
 [預覽頁面](https://udn-newmedia.github.io/udn-newmedia-css/)
 
 # 語法
+
+*   滿版首圖
+```html
+<div id="cover">
+    <h1>從零到爆品 洞察讀者的探索實驗</h1>
+</div>
+```
+
 *   內文區塊
 ```html
 <div class="content container">
@@ -17,3 +25,4 @@ Long Form 預設版型
     <p><br/></p>
 </div>
 ```
+
