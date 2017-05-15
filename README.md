@@ -1,7 +1,7 @@
 # udn-newmedia-css
 Udn NewMedia Default CSS
 
-https://udn-newmedia.github.io/udn-newmedia-css/css/style/css
+https://udn-newmedia.github.io/udn-newmedia-css/css/style.css
 
 # 聯合報新媒體中心
 Long Form 預設版型
