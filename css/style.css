@@ -166,6 +166,7 @@ footer a {
 
 .line-block{
     float: left;
+    cursor: pointer;
     margin-left: 5px;
     margin-top: 1px;
 }
