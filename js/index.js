@@ -11,7 +11,7 @@
 
         if(scroll_now > h){
             $('#indicator').css('opacity', 1)
-            $('#head').css('top', '10px')
+            $('#head').css('top', '6px')
         }
         else{
             $('#indicator').css('opacity', 0)

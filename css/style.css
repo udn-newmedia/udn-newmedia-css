@@ -35,7 +35,7 @@ h2{
     font-size: 1.875rem;
     font-weight: bold;
     line-height: 1.5;
-    margin: 100px 0 50px 0;
+    margin: 100px 0 25px 0;
 }
 
 h3{
@@ -197,6 +197,8 @@ footer a {
     font-size: 1.0625rem;
     color: gray;
     margin-top: 50px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #DCDDDD;
 }
 
 #report{
@@ -231,7 +233,7 @@ footer a {
 }
 
 #indicator{
-	height: 10px;
+	height: 6px;
 	top: 0;
 	left: 0;
 	position: fixed;
@@ -243,7 +245,7 @@ footer a {
 }
 
 #indicator-bar{
-	height: 10px;
+	height: 6px;
 	width: 0;
 	background-color: #AA4444;
 }
@@ -259,14 +261,14 @@ blockquote{
 }
 
 blockquote::before{
-    color: #000000;
+    color: #888888;
     display: inline;
     font-size: 2.9375rem;
     content: '“';
 }
 
 blockquote::after{
-    color: #000000;
+    color: #888888;
     display: inline;
     font-size: 2.9375rem;
     content: '”';
