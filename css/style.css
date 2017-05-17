@@ -22,7 +22,7 @@ img{
 }
 
 h1{
-    font-size: 3.4375rem;
+    font-size: 55px;
     font-weight: bold;
     color: #FFFFFF;
     letter-spacing: 2px;
@@ -32,7 +32,7 @@ h1{
 }
 
 h2{
-    font-size: 1.875rem;
+    font-size: 30px;
     font-weight: bold;
     line-height: 1.5;
     margin: 100px 0 25px 0;
@@ -45,8 +45,14 @@ h3{
     line-height: 1.5;
 }
 
+h6 {
+    font-size: 17px;
+    color: #434242;
+    font-weight: bold;
+}
+
 p{
-    font-size: 1.3125rem;
+    font-size: 21px;
     margin: 0;
 }
 
@@ -134,7 +140,7 @@ footer a {
 }
 
 .img-contain .img-say{
-    font-size: 1.0625rem;
+    font-size: 17px;
     color: gray;
     margin-top: 5px;
 }
@@ -195,7 +201,7 @@ footer a {
 }
 
 #editor{
-    font-size: 1.0625rem;
+    font-size: 17px;
     color: gray;
     margin-top: 50px;
     padding-bottom: 50px;
@@ -211,7 +217,7 @@ footer a {
 }
 
 #report p{
-    font-size: 1rem;
+    font-size: 16px;
 }
 
 #report a {
@@ -254,7 +260,7 @@ footer a {
 blockquote{
     font-family: "新細明體";
     font-weight: bold;
-    font-size: 2rem;
+    font-size: 32px;
     color: #888888;
     padding: 0;
     margin: 50px 0 50px 0;
@@ -264,19 +270,97 @@ blockquote{
 blockquote::before{
     color: #888888;
     display: inline;
-    font-size: 2.9375rem;
+    font-size: 47px;
     content: '“';
 }
 
 blockquote::after{
     color: #888888;
     display: inline;
-    font-size: 2.9375rem;
+    font-size: 47px;
     content: '”';
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 767px){
+
+    h1{
+        font-size: 40px;
+        letter-spacing: -1px;
+    }
+
+    h2{
+        font-size: 26px;
+    }
+
+    h3{
+        font-size: 16px;
+    }
+
+    p{
+        font-size: 16px;
+        line-height: 28px;
+    }
+
+    p>br{
+        line-height: 10px;
+    }
+
+    #editor{
+        font-size: 16px;
+    }
+
     .container{
         width: 100%;
+        padding: 0 20px;
     }
+
+    #head{
+        height: 46px;
+    }
+
+    #icon{
+        height: 46px;
+        line-height: 46px;
+        text-align: center;
+    }
+
+    .img-contain .img-say{
+        font-size: 15px;
+    }
+
+    .share-block{
+        height: auto;
+    }
+
+    .logo-block{
+        float: none;
+        clear: both;
+        margin-top: 50px;
+        margin-left: -8px;
+    }
+
+    #report .col-sm-3{
+        clear: both;
+    }
+
+    #report p {
+        font-size: 16px;
+        float: left;
+        width: 45%;
+        margin-top: 10px;
+    }
+
+    #report .col-sm-3 img {
+        width: auto;
+        height: auto;
+        float: right;
+        width: 50%;
+        padding-left: 10px;
+        padding-bottom: 10px;
+    }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 960px){
+
 }
