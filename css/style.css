@@ -362,6 +362,10 @@ blockquote::after{
         font-size: 15px;
     }
 
+    .people-contain .col-xs-5{
+        padding-right: 0;
+    }
+
     .share-block{
         height: auto;
     }
