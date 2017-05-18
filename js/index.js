@@ -4,6 +4,7 @@
     let h = $(window).height()
     let scroll_now
     let total_height = $('body').height() - h
+    const headTop = (w > 768) ? '6px' : '4px'
 
     $(window).on('scroll', function(){
 
@@ -11,7 +12,7 @@
 
         if(scroll_now > h){
             $('#indicator').css('opacity', 1)
-            $('#head').css('top', '6px')
+            $('#head').css('top', headTop)
         }
         else{
             $('#indicator').css('opacity', 0)

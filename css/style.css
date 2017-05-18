@@ -263,7 +263,7 @@ blockquote{
     font-size: 32px;
     color: #888888;
     padding: 0;
-    margin: 50px 0 50px 0;
+    margin: 50px 0 0 0;
     border-left: none;
 }
 
@@ -286,10 +286,13 @@ blockquote::after{
     h1{
         font-size: 40px;
         letter-spacing: -1px;
+        padding: 0 30px;
+        text-align: center;
     }
 
     h2{
         font-size: 26px;
+        text-align: left;
     }
 
     h3{
@@ -297,12 +300,32 @@ blockquote::after{
     }
 
     p{
-        font-size: 16px;
-        line-height: 28px;
+        font-size: 18px;
+        line-height: 32px;
     }
 
     p>br{
         line-height: 10px;
+    }
+
+    blockquote{
+        font-size: 26px;
+    }
+
+    #indicator{
+        height: 4px;
+    }
+
+    #indicator-bar{
+        height: 4px;
+    }
+
+    #menu{
+        position: absolute;
+        right: 7px;
+        font-size: 34px;
+        top: 5px;
+        color: #FFFFFF;
     }
 
     #editor{
