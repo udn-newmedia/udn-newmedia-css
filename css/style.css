@@ -217,7 +217,7 @@ footer a {
     margin-top: 50px;
 }
 
-#report .col-sm-3{
+#report .col-sm-6{
     padding: 0 10px;
 }
 
@@ -239,7 +239,7 @@ footer a {
     text-decoration: underline;
 }
     
-#report .col-sm-3 img{
+#report .col-sm-6 img{
     width: 208px;
     height: 146px;
 }
@@ -378,7 +378,7 @@ blockquote::after{
         margin-left: -8px;
     }
 
-    #report .col-sm-3{
+    #report .col-sm-6{
         clear: both;
     }
 
@@ -394,7 +394,7 @@ blockquote::after{
         margin-top: 10px;
     }
 
-    #report .col-sm-3 img {
+    #report .col-sm-6 img {
         width: auto;
         height: auto;
         float: right;
@@ -420,5 +420,95 @@ blockquote::after{
 }
 
 @media screen and (min-width: 768px) and (max-width: 960px){
+
+    h1{
+        font-size: 45px;
+        letter-spacing: -1px;
+        padding: 0 30px;
+        text-align: center;
+    }
+
+    h2{
+        font-size: 28px;
+        text-align: left;
+        margin: 80px 0 25px 0;
+    }
+
+    h3{
+        font-size: 18px;
+    }
+
+    p{
+        font-size: 20px;
+        line-height: 36px;
+    }
+
+    p>br{
+        line-height: 10px;
+    }
+
+    hr{
+        margin: 80px auto 0 auto;
+    }
+
+    blockquote{
+        font-size: 28px;
+    }
+
+    #indicator{
+        height: 6px;
+    }
+
+    #indicator-bar{
+        height: 6px;
+    }
+
+    #editor{
+        width: calc(100% - 40px);
+        font-size: 16px;
+        padding: 0 0 50px 0;
+    }
+
+    .container{
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    #head{
+        height: 46px;
+    }
+
+    #icon{
+        height: 46px;
+        line-height: 46px;
+        text-align: center;
+    }
+
+    .img-contain .img-say{
+        font-size: 15px;
+    }
+
+    #report .col-sm-6{
+        margin-top: 20px;
+    }
+
+    #report .col-sm-6 img {
+        width: 100%;
+        height: auto;
+    }
+
+    #share-block-top{
+        margin-top: 20px;
+    }
+
+    footer{
+        width: calc(100% - 40px);
+        margin-top: 30px;
+    }
+
+    .footer-link{
+        font-size: 14px;
+        padding: 0 6px;
+    }
 
 }

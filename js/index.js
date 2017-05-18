@@ -4,7 +4,7 @@
     let h = $(window).height()
     let scroll_now
     let total_height = $('body').height() - h
-    const headTop = (w > 768) ? '6px' : '4px'
+    const headTop = (w >= 768) ? '6px' : '4px'
 
     $(window).on('scroll', function(){
 
