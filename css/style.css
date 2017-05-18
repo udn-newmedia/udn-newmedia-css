@@ -339,14 +339,13 @@ blockquote::after{
     }
 
     #editor{
-        width: calc(100% - 40px);
         font-size: 16px;
         padding: 0 0 50px 0;
     }
 
     .container{
-        width: 100%;
-        padding: 0 20px;
+        width: calc(100% - 40px);
+        padding: 0;
     }
 
     #head{
@@ -426,6 +425,7 @@ blockquote::after{
         letter-spacing: -1px;
         padding: 0 30px;
         text-align: center;
+        margin-top: -23px;
     }
 
     h2{
@@ -464,14 +464,12 @@ blockquote::after{
     }
 
     #editor{
-        width: calc(100% - 40px);
         font-size: 16px;
         padding: 0 0 50px 0;
     }
 
     .container{
-        width: 100%;
-        padding: 0 20px;
+        width: calc(100% - 200px);
     }
 
     #head{
@@ -502,7 +500,7 @@ blockquote::after{
     }
 
     footer{
-        width: calc(100% - 40px);
+        width: calc(100% - 200px);
         margin-top: 30px;
     }
 
