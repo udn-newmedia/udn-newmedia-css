@@ -292,7 +292,7 @@ blockquote::after{
         font-size: 40px;
         letter-spacing: -1px;
         padding: 0 30px;
-        text-align: center;
+        text-align: left;
     }
 
     h2{
