@@ -85,6 +85,7 @@ footer a {
 }
 
 .footer-link{
+    line-height: 1;
     padding: 0px 10px;
 }
 
