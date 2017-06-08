@@ -145,7 +145,7 @@ footer a {
     height: 100%;
 }
 
-.img-contain .img-say{
+.img-say{
     font-size: 17px;
     color: gray;
     margin-top: 5px;
@@ -363,7 +363,7 @@ blockquote::after{
         padding: 0 20px;
     }
 
-    .img-contain .img-say{
+    .img-say{
         font-size: 15px;
     }
 
@@ -487,7 +487,7 @@ blockquote::after{
         text-align: center;
     }
 
-    .img-contain .img-say{
+    .img-say{
         font-size: 15px;
     }
 
