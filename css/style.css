@@ -125,6 +125,15 @@ footer a {
     margin-bottom: 100px;
 }
 
+.video-contain{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.video-contain video{
+    width: 100%;
+}
+
 .lazy-contain{
     position: relative;
 }
