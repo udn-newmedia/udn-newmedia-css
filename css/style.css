@@ -323,6 +323,14 @@ blockquote::after{
         font-size: 26px;
     }
 
+    blockquote::before{
+        font-size: 30px;
+    }
+
+    blockquote::after{        
+        font-size: 30px;
+    }
+
     #indicator{
         height: 4px;
     }
