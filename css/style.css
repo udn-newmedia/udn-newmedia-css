@@ -362,7 +362,7 @@ blockquote::after{
     }
 
     .container{
-        width: 100%;
+        width: calc(100% - 40px);
         padding: 0;
     }
 
@@ -374,10 +374,6 @@ blockquote::after{
         height: 46px;
         line-height: 46px;
         text-align: center;
-    }
-
-    .content{
-        padding: 0 20px;
     }
 
     .img-say{
