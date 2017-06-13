@@ -308,7 +308,7 @@ blockquote::after{
     h2{
         font-size: 26px;
         text-align: left;
-        margin: 80px 0 25px 0;
+        margin: 64px 0 32px 0;
     }
 
     h3{
@@ -436,6 +436,11 @@ blockquote::after{
     .footer-link{
         font-size: 14px;
         padding: 0 6px;
+    }
+
+    .img-contain{
+        margin-top: 64px;
+        margin-bottom: 64px;
     }
 
 }
