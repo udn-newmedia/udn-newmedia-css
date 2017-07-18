@@ -46,8 +46,11 @@ Long Form 預設版型
     </tr>
 </table>
 
-* 圖片/影片
+* 圖片
 預設 PC 16:9 Mobile 方型
+
+* 影片
+預設 PC 16:9 Mobile 方型，PC 滾動自動播放，Mobile 滾動自動無聲播放，無法自動撥放者，點按播放。
 
 # 預覽
 [預覽頁面](https://udn-newmedia.github.io/udn-newmedia-css/)
@@ -74,7 +77,10 @@ content 裡的&lt;br/&gt;要用&lt;p&gt;標籤包起來，這樣才有符合標�
 
 *   引言
 ```html
-<blockquote>Quote Test</blockquote>
+<div class="quote-contain">
+    <div class="quote-text">許多孩子告訴我們，他們從來沒有踏進過大學一步。訪問大學生，能拓展他們的認知，也會有一個前進的目標。</div>
+    <div class="quote-ref">─ 更生少年關懷協會主任 陳彥君</div>
+</div>
 ```
 
 *   分隔線
@@ -97,6 +103,23 @@ content 裡的&lt;br/&gt;要用&lt;p&gt;標籤包起來，這樣才有符合標�
 <div class="iframe-contain container">
     <div class="embed-responsive embed-responsive-16by9">
         <iframe class="lazyload embed-responsive-item" data-src="https://www.youtube.com/embed/V74AxCqOTvg?rel=0" frameborder="0" allowfullscreen></iframe>
+    </div>
+</div>
+```
+
+*   影片
+```html
+<div class="video-contain">
+    <video preload="metadata" class="rwd-2dv" id="movie-1" src="https://udn.com/upf/newmedia/2017_data/hk_handover_20/video/video1.mp4" playsinline data-target="1"></video>
+    <div style="margin-top: -8px;" class="video-control">
+        <div class="progress hidden-md hidden-lg">
+            <div id="progress-bar-1" class="progress-bar progress-bar-striped"></div>
+        </div>
+        <div class="img-say-out volume-text hidden-md hidden-lg" data-target="1">點按開聲音</div>
+        <i class="fa fa-spinner fa-pulse video-wait" data-target="1"></i>
+        <i class="fa fa-play video-play hidden-md hidden-lg" data-target="1"></i>
+        <i class="fa fa-volume-off volume hidden-md hidden-lg" data-target="1"></i>
+        <i class="fa fa-repeat replay hidden-md hidden-lg" data-target="1"></i>
     </div>
 </div>
 ```

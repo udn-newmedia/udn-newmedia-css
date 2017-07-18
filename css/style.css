@@ -267,28 +267,27 @@ footer a {
 	background-color: #AA4444;
 }
 
-blockquote{
+.quote-contain{
     font-family: "新細明體";
     font-weight: bold;
     font-size: 32px;
     color: #888888;
-    padding: 0;
+    min-height: 125px;
     margin: 50px 0 50px 0;
-    border-left: none;
+    padding: 15px 0;
+    border-top: dotted 1px #dcdddd;
+    border-bottom: dotted 1px #dcdddd;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+    min-height: 125px;
+    position: relative;
 }
 
-blockquote::before{
-    color: #888888;
-    display: inline;
-    font-size: 47px;
-    content: '“';
-}
-
-blockquote::after{
-    color: #888888;
-    display: inline;
-    font-size: 47px;
-    content: '”';
+.quote-ref {
+    font-size: 17px;
+    margin-top: 10px;
 }
 
 @media screen and (max-width: 767px){
