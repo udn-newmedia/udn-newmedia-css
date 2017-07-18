@@ -1,5 +1,7 @@
 ($(document).ready(function(){
 
+    var progress = []
+
     function moviePlay(id){
         $('#movie-' + id).get(0).play();
         if(progress[id - 1] == null){
