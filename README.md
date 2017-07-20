@@ -6,7 +6,7 @@ https://udn-newmedia.github.io/udn-newmedia-css/css/style.css
 引入 css 後，照定義好的 tag 開發，就有預設的空版頁面
 
 # 聯合報新媒體中心
-Long Form 預設版型
+Long Form 預設版型，預設板型的目的為讓設計有個基礎，諸如字型大小，文章寬度等等，讓設計不是每次從0開始。
 
 ## 規格
 
