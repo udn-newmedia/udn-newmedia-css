@@ -433,6 +433,55 @@ footer a {
         margin-bottom: 64px;
     }
 
+    .video-contain{
+        margin-top: 64px;
+        margin-bottom: 64px;
+    }
+
+    .video-play{
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		font-size: 60px;
+		color: #FFB93E;
+		margin-left: -12.5px;
+    	margin-top: -30px;
+		transition: opacity 0.2s ease;
+		pointer-events: none;
+	}
+	.video-wait{
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		font-size: 60px;
+		color: #FFB93E;
+		margin-left: -23.5px;
+    	margin-top: -30px;
+		transition: opacity 0.2s ease;
+		opacity: 0;
+		pointer-events: none;
+	}
+	.volume{
+		color: #9fa0a0;
+		z-index: 999;
+		position: absolute;
+		bottom: -24px;
+    	left: 28px;
+	}
+	.volume-text{
+		position: absolute;
+		left: 47px;
+		bottom: -30px;
+		color: #9fa0a0;
+	}
+	.replay{
+		color: #9fa0a0;
+		z-index: 999;
+		position: absolute;
+		bottom: -26px;
+    	right: 15px;
+	}
+
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px){
