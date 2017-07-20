@@ -481,6 +481,15 @@ footer a {
 		position: absolute;
 		bottom: -26px;
     	right: 15px;
+    }
+    .progress{
+		height: 4px;
+	}
+	.progress-bar{
+		height: 4px;
+		width: 0;
+		background-color: #FFB93E;
+		transition: width 0.6s linear;
 	}
 
 }

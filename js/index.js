@@ -14,12 +14,6 @@
                 }
                 if(Math.floor(curTime/5) > movie_progress){
                     movie_progress = Math.floor(curTime/5)
-                    ga("send", {
-                        "hitType": "event",
-                        "eventCategory": "movie play",
-                        "eventAction": "play",
-                        "eventLabel": "[" + platform + "] [" + title + "] [movie " + id + " play " + (movie_progress*5) + "]"
-                    });
                 }
                 
                 $('#progress-bar-' + id).css('width', temp + '%')
