@@ -312,7 +312,7 @@ footer a {
 
     p{
         font-size: 18px;
-        line-height: 27px;
+        line-height: 32px;
     }
 
     p>br{
@@ -331,7 +331,7 @@ footer a {
         font-size: 30px;
     }
 
-    blockquote::after{        
+    blockquote::after{
         font-size: 30px;
     }
 
