@@ -19,13 +19,39 @@ Long Form 預設版型，預設板型的目的為讓設計有個基礎，諸如�
         <th>內文</th>
         <th>引言</th>
         <th>圖說</th>
+        <th>斷行間距</th>
+        <th>行高</th>
     </tr>
     <tr>
         <td>55px</td>
         <td>30px</td>
         <td>21px</td>
         <td>32px</td>
-        <td>17px</td>
+        <td>50px</td>
+        <td>1.5</td>
+    </tr>
+</table>
+
+* PAD
+文寬 100% 左右 padding 100px
+<table>
+    <tr>
+        <th>大標</th>
+        <th>內文標</th>
+        <th>內文</th>
+        <th>引言</th>
+        <th>圖說</th>
+        <th>斷行間距</th>
+        <th>行高</th>
+    </tr>
+    <tr>
+        <td>45px</td>
+        <td>30px</td>
+        <td>20px</td>
+        <td>32px</td>
+        <td>15px</td>
+        <td>36px</td>
+        <td>36px</td>
     </tr>
 </table>
 
@@ -38,6 +64,8 @@ Long Form 預設版型，預設板型的目的為讓設計有個基礎，諸如�
         <th>內文</th>
         <th>引言</th>
         <th>圖說</th>
+        <th>斷行間距</th>
+        <th>行高</th>
     </tr>
     <tr>
         <td>40px</td>
@@ -45,14 +73,16 @@ Long Form 預設版型，預設板型的目的為讓設計有個基礎，諸如�
         <td>18px</td>
         <td>26px</td>
         <td>15px</td>
+        <td>32px</td>
+        <td>32px</td>
     </tr>
 </table>
 
 * 圖片
-預設 PC 16:9 Mobile 方型
+預設 PC 16:9 PAD 16:9 Mobile 方型
 
 * 影片
-預設 PC 16:9 Mobile 方型，PC 滾動自動播放，Mobile 滾動自動無聲播放，無法自動撥放者，點按播放。
+預設 PC 16:9 PAD 16:9 Mobile 方型，PC 滾動自動播放，PAD/Mobile 滾動自動無聲播放，無法自動撥放者，點按播放。
 
 # 預覽
 [預覽頁面](https://udn-newmedia.github.io/udn-newmedia-css/)
