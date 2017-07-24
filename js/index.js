@@ -1,7 +1,27 @@
 ($(document).ready(function(){
 
+    var scroll_now;
+    var read_progress = 10;
+    var isMob = detectmob();
+    var platform = (isMob == true) ? 'Mob' : 'PC';
     var progress = []
     var movie_progress = [null]
+
+    function detectmob() {
+        if( navigator.userAgent.match(/Android/i)
+            || navigator.userAgent.match(/webOS/i)
+            || navigator.userAgent.match(/iPhone/i)
+            || navigator.userAgent.match(/iPad/i)
+            || navigator.userAgent.match(/iPod/i)
+            || navigator.userAgent.match(/BlackBerry/i)
+            || navigator.userAgent.match(/Windows Phone/i)
+        ){
+            return true;
+        }
+        else {
+            return false;
+        }
+    }
 
     function moviePlay(id){
         $('#movie-' + id).get(0).play();
@@ -57,14 +77,55 @@
 
     let w = $(window).width()
     let h = $(window).height()
-    let scroll_now
     let total_height = $('body').height() - h
     const headTop = (w >= 768) ? '6px' : '4px'
+    var title = $('title').text();
+
+    $('a').click(function(){
+        ga("send", {
+            "hitType": "event",
+            "eventCategory": "超連結點擊",
+            "eventAction": "click",
+            "eventLabel": "[" + platform + "] [" + title + "] [" + $(this).attr('href') + "]"
+        });
+    });
+
+    $('#scroll-down').click(function(){
+        ga("send", {
+            "hitType": "event",
+            "eventCategory": "ham bar",
+            "eventAction": "click",
+            "eventLabel": "[" + platform + "] [" + title + "] [scroll down]"
+        });			
+    });
+
+    $('.line-share').click(function(e){
+        ga("send", {
+            "hitType": "event",
+            "eventCategory": "Line Share",
+            "eventAction": "click",
+            "eventLabel": "[" + platform + "] [" + title + "] [line share]"
+        });
+    });
 
     $(window).on('scroll', function(){
 
         scroll_now = $(window).scrollTop();
         movie1 = scroll_now - $('#movie-1').offset().top + h;
+
+        var cur_scroll = scroll_now/total_height * 100;
+
+        for(;read_progress<=Math.floor(cur_scroll);read_progress+=10){
+    
+            console.log(read_progress + "%");
+
+            ga("send", {
+                "hitType": "event",
+                "eventCategory": "read",
+                "eventAction": "scroll",
+                "eventLabel": "[" + platform + "] [" + title + "] [page read " + read_progress + "%]"
+            });
+        }
 
         if(scroll_now > h){
             $('#indicator').css('opacity', 1)
