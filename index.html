@@ -120,34 +120,34 @@
 
     <!-- Begin etu Tag -->
     <script id="etu-recommender" type="text/javascript">
-
-        // sLogin=GetCkValue("udnmember");
-        var erUrlPrefix='https://rec.udn.com/';
-        var _qevents = _qevents || [];
-        _qevents.push({
-            group:'udn',
-            cid : 'udn_soft',
-            act : 'view',
-            cat : ['news','cms','','',''],
-            uid : '',
-            bid : '',
-            pid : '',
-            page:'ARTICLE',
-            Rank_cat:'10',
-            Rank_pid:'10',
-            title: $('title').text(),
-            tag:[],
-            referral: document.referrer
-        });
-        (function() {
-            var er = document.createElement('script');
-            er.type = 'text/javascript';
-            er.async = true;
-            er.src = erUrlPrefix + 'er.js?' + (new Date().getTime());
-            var currentJs = document.getElementById('etu-recommender');
-            currentJs.parentNode.insertBefore(er, currentJs);
-        })();
-    </script>
+ 
+         // sLogin=GetCkValue("udnmember");
+         var erUrlPrefix='https://rec.udn.com/';
+         var _qevents = _qevents || [];
+         _qevents.push({
+             group:'udn',
+             cid : 'udn_soft',
+             act : 'view',
+             cat : ['news','cms','','',''],
+             uid : '',
+             bid : '',
+             pid : '',
+             page:'ARTICLE',
+             Rank_cat:'10',
+             Rank_pid:'10',
+             title: $('title').text(),
+             tag:[],
+             referral: document.referrer
+         });
+         (function() {
+             var er = document.createElement('script');
+             er.type = 'text/javascript';
+             er.async = true;
+             er.src = erUrlPrefix + 'er.js?' + (new Date().getTime());
+             var currentJs = document.getElementById('etu-recommender');
+             currentJs.parentNode.insertBefore(er, currentJs);
+         })();
+     </script>
 
     </head>
     <body>
