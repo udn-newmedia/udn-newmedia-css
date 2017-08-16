@@ -286,6 +286,10 @@ footer a {
     position: relative;
 }
 
+.quote-text {
+    width: 100%;
+}
+
 .quote-ref {
     font-size: 17px;
     margin-top: 10px;
