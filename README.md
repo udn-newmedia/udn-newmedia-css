@@ -122,6 +122,7 @@ content 裡的&lt;br/&gt;要用&lt;p&gt;標籤包起來，這樣才有符合標�
 ```
 
 *   圖片嵌入
+預設16:9 如為其他SIZE圖片 拿掉 lazy-contain
 ```html
 <div class="img-contain container">
     <div class="lazy-contain">

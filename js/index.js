@@ -106,12 +106,17 @@
             "eventAction": "click",
             "eventLabel": "[" + platform + "] [" + title + "] [line share]"
         });
+        if(detectmob()){
+			//手機
+			window.location.href="//line.me/R/msg/text/?" + title + "%0D%0A%0D%0A" + $('meta[property="og:description"]').attr('content') + "%0D%0A%0D%0A" + window.location.href;
+		}else{
+			window.open("https://lineit.line.me/share/ui?url="+window.location.href);
+		}
     });
 
     $(window).on('scroll', function(){
 
         scroll_now = $(window).scrollTop();
-        movie1 = scroll_now - $('#movie-1').offset().top + h;
 
         var cur_scroll = scroll_now/total_height * 100;
 
@@ -137,17 +142,6 @@
         }
 
         $('#indicator-bar').css('width', scroll_now/total_height * 100 + '%');
-
-        if(movie1 > h/3 && movie1 < h + 200){
-            if($('#movie-1').get(0).paused == true){
-                moviePlay(1);
-            }
-        }
-        else{
-            if($('#movie-1').get(0).paused == false){
-                moviePause(1)
-            }
-        }
 
     })
 
