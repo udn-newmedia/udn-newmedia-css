@@ -121,6 +121,50 @@ content 裡的&lt;br/&gt;要用&lt;p&gt;標籤包起來，這樣才有符合標�
 <hr>
 ```
 
+*   輪播圖
+範例為三張圖之輪播，如果要新增圖片，li tag 照格式 燃後數字+1
+下面整個div class item 整段複製新的再改圖片連結即可
+```html
+<div id="carousel" class="carousel slide container" data-ride="carousel">
+    <ol class="carousel-indicators">
+        <li data-target="#carousel" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel" data-slide-to="1"></li>
+        <li data-target="#carousel" data-slide-to="2"></li>
+    </ol>
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+        <div class="item active">
+            <img src="https://lorempixel.com/640/400">
+            <div class="carousel-caption">
+                圖片一
+            </div>
+        </div>
+        <div class="item">
+            <img src="https://lorempixel.com/640/400">
+            <div class="carousel-caption">
+                圖片二
+            </div>
+        </div>
+        <div class="item">
+            <img src="https://lorempixel.com/640/400">
+            <div class="carousel-caption">
+                圖片三
+            </div>
+        </div>
+    </div>
+
+    <!-- Controls -->
+    <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#carousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
+```
+
 *   圖片嵌入
 預設16:9 如為其他SIZE圖片 拿掉 lazy-contain
 ```html
